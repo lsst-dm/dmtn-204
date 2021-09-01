@@ -1,0 +1,9 @@
+% bibentry template for lsst.bib in https://github.com/lsst/lsst-texmf/blob/master/texmf/bibtex/bib/lsst.bib
+
+@DocuShare{DMTN-204,
+   author = { Tim Jenness },
+    title = {Data Annotations in Butler},
+     year = 2021,
+    month = Sep,
+   handle = {DMTN-204},
+      url = {https://dmtn-204.lsst.io } }
