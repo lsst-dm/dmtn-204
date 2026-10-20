@@ -10,7 +10,7 @@ license.id = "CC-BY-4.0"
 date_created = 2021-09-01T20:55:10Z
 
 [technote.status]
-state = "draft"
+state = "deprecated"
 
 [[technote.authors]]
 name = {given = "Tim", family = "Jenness"}

@@ -6,6 +6,12 @@ Data Annotations in Butler
 
    In this document we explore the options for allowing annotations of datasets and dimension records within butler registry. These may be associating standard flags with a dataset or a textual annotation.
 
+Document Status
+===============
+
+Since this document was started we decided that it was simpler to continue to track dataset metadata (comments on individual observations and whether they are questionable or bad) in a separate database :cite:`TSTN-063,2026SPIE14151E..2TB` and not expand the Butler data model.
+The rest of this document has been retained for historical purposes.
+
 Requirements
 ============
 
