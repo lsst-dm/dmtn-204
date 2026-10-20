@@ -10,7 +10,7 @@ Document Status
 ===============
 
 Since this document was started we decided that it was simpler to continue to track dataset metadata (comments on individual observations and whether they are questionable or bad) in a separate database :cite:`TSTN-063,2026SPIE14151E..2TB` and not expand the Butler data model.
-The rest of this document has been retained for historical purposes.
+The rest of this document has been retained for historical purposes or if we want to revisit the concept for reasons other than tracking summit observations.
 
 Requirements
 ============
@@ -73,6 +73,7 @@ Open Questions
   These are annotations against exposure records rather than explicit datasets and is somewhat orthogonal to the limited set of proposed quality flags.
   Should Butler support tags on dimensions?
   Should the set of tags be arbitrary, curated, or restricted per telescope?
+  For example, the discussion on "data ID sets" provenance in :cite:`DMTN-181` could make use of such a facility.
 * For datasets should quality flagging or applying of tags be handled solely by using TAGGED collections for datasets?
   For dimensions records a TAGGED collection can not be used (we could though automatically move raw datasets into tagged collections as the flag changes) given that there is a need to be able to ask which exposure records have been flagged regardless of where the datasets are stored.
 * Should we allow commenting on any dimension record?
