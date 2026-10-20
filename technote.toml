@@ -1,0 +1,17 @@
+[technote]
+id = "DMTN-204"
+series_id = "DMTN"
+canonical_url = "https://dmtn-204.lsst.io/"
+github_url = "https://github.com/lsst-dm/dmtn-204"
+github_default_branch = "main"
+organization.name = "Vera C. Rubin Observatory"
+organization.ror = "https://ror.org/048g3cy84"
+license.id = "CC-BY-4.0"
+[[technote.authors]]
+name = {given = "Tim", family = "Jenness"}
+internal_id = "jennesst"
+orcid = "https://orcid.org/0000-0001-5982-167X"
+[[technote.authors.affiliations]]
+name = "NSF-DOE Vera C. Rubin Observatory / NSF NOIRLab"
+internal_id = "RubinObs"
+ror = "https://ror.org/048g3cy84"

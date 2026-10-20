@@ -1,3 +1,11 @@
+##########################
+Data Annotations in Butler
+##########################
+
+.. abstract::
+
+   In this document we explore the options for allowing annotations of datasets and dimension records within butler registry. These may be associating standard flags with a dataset or a textual annotation.
+
 ..
   Technote content.
 
@@ -36,11 +44,8 @@
 
    Feel free to delete this instructional comment.
 
-:tocdepth: 1
 
-.. Please do not modify tocdepth; will be fixed when a new Sphinx theme is shipped.
 
-.. sectnum::
 
 .. TODO: Delete the note below before merging new content to the master branch.
 
